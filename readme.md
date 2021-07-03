@@ -4,23 +4,23 @@
 - This code can be used to run in your servers to notify the slots available to your Telegram
 
 ## Telegram Bot 
-# Create Telegram Bot
+### Create Telegram Bot
 Unlike Whatsapp Bot, Telegram Bots are free to use. Telegram Bot are widely used by several developers to build applications. First you need to have a Telegram Account and bot can be registered by following the [link](https://sendpulse.com/knowledge-base/chatbot/create-telegram-chatbot)
 
-# Copy the Telegram Token
+### Copy the Telegram Token
 Copy the Telegram Access Token in to a credentials file. The telegram access token looks like this
 ```
 [telegram]
 accessToken = 1891112227:AAHdsasd&askjlasMIya6ppKGu9lAKluiMtkwdSsiZdx_f0
 ```
 
-# Export the Location of creds File into environment variable
+### Export the Location of creds File into environment variable
 To avoid access tokens being shared, I follow this apporach of having the path to credentials file stored in a environment variable
 ```
 export DevKeys=/Users/Achuth/Keys/cred
 ```
 
-# Get the Chat Id of the Space
+### Get the Chat Id of the Space
 Get the chat Id of the space you want to ping the notifications to and copy the chat id to the chatIds dictionary.
 ```
 ChatIds= {
@@ -28,7 +28,7 @@ ChatIds= {
 }
 ```
 
-# Get the District Ids
+### Get the District Ids
 I have implemented this script for the Bangalore Urban,Rural and BBMP. You can modify the script to your needs by adding the Disrict IDs of your choice.  Refer more to APIs at [APISetu](https://apisetu.gov.in/public/api/cowin)
 
 Get the List of All State IDs
