@@ -16,7 +16,7 @@ logging.basicConfig(filename=logfilename,format='%(asctime)s %(message)s',level=
 
 
 ChatIds= {
-    "DirectAcmp":"1458048263"
+    "NotifierSpace1":"1458048263"
 }
 
 def sendTelegramMessage(message):
